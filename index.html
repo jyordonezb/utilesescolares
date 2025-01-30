@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Útiles Escolares - Todo para el Estudio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+        .hero {
+            background: url('https://libreriamoderna.com.sv/wp-content/uploads/2022/08/banner-escolar-Large.png') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        .section-title {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            max-height: 400px;
+        }
+        .contact-section {
+            background: #007bff;
+            color: white;
+            padding: 50px 0;
+        }
+        footer {
+            background: #222;
+            color: #bbb;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h2 style="color:#2a3137">Utiles Escolares</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Encuentra los Mejores Útiles Escolares</h1>
+            <p>Todo lo que necesitas para el regreso a clases.</p>
+            <a href="#productos" class="btn btn-danger btn-lg">Ver Productos</a>
+        </div>
+    </section>
+    
+    <!-- Productos Destacados -->
+    <section id="productos" class="container my-5">
+        <h2 class="section-title text-center">Nuestros Productos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/5a/7e/e5/5a7ee5ab6904d63bfa95edc134f55eec.jpg" class="card-img-top" alt="Cuadernos">
+                    <div class="card-body">
+                        <h5 class="card-title">Cuadernos</h5>
+                        <p class="card-text">Variedad de diseños y tamaños.</p>
+                        <a href="#" class="btn btn-outline-primary">Más Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://img.wook.pt/images/lapis-grafite-staedtler-lumograph-100-5h-cxc-12/MXwyNDI1MzkzOHwyMDMyOTM5NnwxNTk3OTY0NDAwMDAw/500x" class="card-img-top" alt="Lápices y Bolígrafos">
+                    <div class="card-body">
+                        <h5 class="card-title">Lápices y Bolígrafos</h5>
+                        <p class="card-text">Escritura cómoda y duradera.</p>
+                        <a href="#" class="btn btn-outline-primary">Más Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71+Du7affeL._AC_SL1500_.jpg" class="card-img-top" alt="Mochilas">
+                    <div class="card-body">
+                        <h5 class="card-title">Mochilas</h5>
+                        <p class="card-text">Diseños ergonómicos y modernos.</p>
+                        <a href="#" class="btn btn-outline-primary">Más Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Beneficios -->
+    <section class="container my-5">
+        <h2 class="section-title text-center">¿Por qué elegirnos?</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h4>Calidad Garantizada</h4>
+                <p>Todos nuestros productos son seleccionados por su alta calidad.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Precios Accesibles</h4>
+                <p>Ofrecemos precios competitivos para ajustarnos a tu presupuesto.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Entrega Rápida</h4>
+                <p>Envíos en tiempo récord para que tengas tus útiles cuando los necesites.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contacto -->
+    <section class="contact-section text-center">
+        <h2>Contáctanos</h2>
+        <p>Para pedidos o consultas, escríbenos por WhatsApp.</p>
+        <a href="https://wa.me/123456789" class="btn btn-light btn-lg">Contactar por WhatsApp</a>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Útiles Escolares. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
